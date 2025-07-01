@@ -5,7 +5,7 @@ public class RectLoop extends MyFrame {
 		int x = 30;
 		for (int i=0; i <10 ; i++) {
 
-			fillRect(x, 50+x, 10, 100);
+			fillRect(x, 80, 10, x);
 			x+=20;
 			
 		}
